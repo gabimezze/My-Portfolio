@@ -1,4 +1,4 @@
-
+import '../../routes/routes'
 export default function MainContent() {
     return (
     <div className="home"> 
