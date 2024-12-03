@@ -1,7 +1,10 @@
-
+import AppRoutes from './routes/routes';
 import './estilo.css'
 
-function App() {
-}
-
-export default App
+export default function App() {
+    return (
+        <div>
+            <AppRoutes />
+        </div>
+    );
+};
