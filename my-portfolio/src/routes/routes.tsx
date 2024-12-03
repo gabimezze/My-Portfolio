@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./home/index";
-import Sobre from "./sobre/index";
-import Projetos from "./projetos/index";
+import Home from "./home";
+import Sobre from "./sobre";
+import Projetos from "./projetos";
 
 export default function AppRoutes() {
   return (
