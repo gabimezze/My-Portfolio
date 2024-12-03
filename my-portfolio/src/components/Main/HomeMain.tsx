@@ -1,4 +1,5 @@
 import '../../routes/routes'
+import '../../estilo.css'
 export default function MainContent() {
     return (
     <div className="home"> 
