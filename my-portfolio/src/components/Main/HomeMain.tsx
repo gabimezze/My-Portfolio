@@ -1,13 +1,22 @@
 import '../../routes/routes'
 import '../../estilo.css'
+import Card from '../Cards/CardPerfil'
 export default function MainContent() {
     return (
-    <div className="home"> 
+    <div className="container-home">
+        <div>
+        <Card />
+        </div>
+        <div className='card-content'>
         <h1>Gabriela Gomes</h1>
-            <p>Graduanda em Análise e Desenvolvimento de Sistemas | Full-Stack</p>
-            <p>Olá, sejam bem vindos(as) ao meu Portfólio! De uma olhada e conheça mais sobre mim.</p>
-        <a className="sb">saiba mais</a>
-        <a className="bntc">currículo</a>
+        <p>Desenvolvimento Front End <br />
+        Sou uma desenvolvedora web fascinada, com foco na <br /> construção de sites modernos, interativos e fáceis de usar.
+        </p>
+        <div className='bnt-container'>
+            <a href='/sobre' className="sb">saiba mais</a>
+            <a href='' className="bntc">currículo</a>
+            </div>
+        </div>
     </div>
-    )
-}
+    );
+};
