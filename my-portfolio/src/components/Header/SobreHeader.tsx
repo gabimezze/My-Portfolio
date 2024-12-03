@@ -1,10 +1,10 @@
-import logo from '../../img/logo-mezze.png'
+import Logo from '../../../public/favicon.ico'
 import '../../estilo.css'
 import '../../routes/routes'
 export default function SobreHeader() {
     return (
-        <header>
-            <img src={logo} alt="logo-mezze" />
+        <header className='cabecalho'>
+            <img src={Logo} alt="logo-mezze" />
             <nav>
                 <ul>
                     <li className="link"><a href="/"></a>Home</li>
