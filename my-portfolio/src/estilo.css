@@ -13,6 +13,7 @@ header {
     align-items: center;
     padding: 1.5rem;
   }
+
   .active {
     color: #d2748a;
     font-weight: bolder;
@@ -20,12 +21,12 @@ header {
 
     /* CABEÇALHO E RODAPÉ*/                                   /**/                                /**/
  
-  .cabecalho li {
+  .cabecalho li{
+    color: #fff;
     margin: 1.25rem;
     display: inline-flex;
     gap: 1rem;
     transition: color 0.3s;
-    color: #ffff;
     cursor: pointer;
   }
   
