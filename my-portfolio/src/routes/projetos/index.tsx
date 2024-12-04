@@ -9,5 +9,5 @@ export default function Projetos() {
             <h1>Projetos</h1>
             <Rodape />
         </>
-    )
-}
+    );
+};
