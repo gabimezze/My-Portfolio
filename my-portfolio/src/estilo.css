@@ -184,22 +184,38 @@ body {
   }
 
   /* PAGE PROJETOS*/                            /**/                                 /**/                               /**/
+  .p-container {
+    animation: slide-in-left 1s ease-out forwards;
+  }
   .p-container h1{ 
     color: #fff;
     text-align: center;
   }
   .pcard {
-    background: rgb(241, 240, 240);
+    background: transparent;
     margin: 10px;
     margin-top: 2%;
-    padding: 15px;
+    padding: 40px 40px;
     border-radius: 8px;
     display: inline-block;
     width: 250px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(34, 34, 34, 0.3);
     transition: transform 0.2s;
   }
 
   .pcard:hover {
     transform: translateY(-10px);
+  }
+
+  .pcard h2 {
+    font-size:larger ;
+    color: #fff;
+  }
+
+  .pcard p {
+    color: #a1a1aa;
+  }
+
+  .pcard img {
+    border-radius: 1.0rem;
   }
