@@ -7,11 +7,11 @@ export default function HomeHeader() {
             <img src={Logo} alt="logo-mezze" />
             <nav>
                 <ul>
-                    <li className="link"><a className='active' href="/"></a>Home</li>
-                    <li className="link"><a href="/sobre"></a>Sobre mim</li>
-                    <li className="link"><a href="/projetos"></a>Projetos</li>
+                    <li><a className='active' href="/"></a>Home</li>
+                    <li><a href="/sobre"></a>Sobre mim</li>
+                    <li><a href="/projetos"></a>Projetos</li>
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
