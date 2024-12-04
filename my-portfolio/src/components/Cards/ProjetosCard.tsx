@@ -1,4 +1,5 @@
 import '../../estilo.css'
+import '../../img/porto.png'
 
 export default function ProjetosCard () {
     return (
@@ -11,10 +12,17 @@ export default function ProjetosCard () {
             </div>
             <div className="pcard">
                 <h2>Portfólio</h2>
+                <a href=""><img src="]" alt="" /></a>
                 <p>Projeto Front End para apresentar minhas habilidades.</p>
+            </div>
+            <div className='pcard'>
+                <h2>Porto Seguro</h2>
+                <a href="https://caseportofiap.netlify.app/"><img src="" alt="" /></a>
+                <p>Case da faculdade Fiap com a Porto Seguro.</p>
             </div>
             <div className="pcard">
                 <h2>Portfólio de Avaliações</h2>
+                <a href=""></a>
                 <p>Projeto Full-Stack para mostrar notas dos alunos.</p>
             </div>
             </div>
