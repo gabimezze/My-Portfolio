@@ -7,9 +7,9 @@ export default function HomeHeader() {
             <img src={Logo} alt="logo-mezze" />
             <nav>
                 <ul>
-                    <li><a className='active' href="/"></a>Home</li>
-                    <li><a href="/sobre"></a>Sobre mim</li>
-                    <li><a href="/projetos"></a>Projetos</li>
+                    <li><a className='active' href="/">Home</a></li>
+                    <li><a href="/sobre">Sobre mim</a></li>
+                    <li><a href="/projetos">Projetos</a></li>
                 </ul>
             </nav>
         </header>

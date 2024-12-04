@@ -7,11 +7,11 @@ export default function ProjetosHeader() {
             <img src={Logo} alt="logo-mezze" />
             <nav>
                 <ul>
-                    <li className="link"><a href="/"></a>Home</li>
-                    <li className="link"><a href="/sobre"></a>Sobre mim</li>
-                    <li className="link"><a className='active' href="/projetos"></a>Projetos</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/sobre">Sobre mim</a></li>
+                    <li><a className='active' href="/projetos">Projetos</a></li>
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
