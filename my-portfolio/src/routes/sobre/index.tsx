@@ -18,9 +18,9 @@ export default function Sobre() {
             </div>
             <div className='texts-container'>
             <h1>Sobre Mim</h1>
-            <p>Meu nome é Gabriela, tenho 19 anos, e a tecnologia sempre desempenhou um papel central em minha vida, despertando meu interesse desde cedo e proporcionando-me constante entretenimento. Essa curiosidade crescente levou-me ao fascinante mundo da programação.
-            Atualmente, estou cursando o segundo semestre na FIAP e já possuo conhecimentos autodidatas adquiridos antes de iniciar a faculdade. Tenho uma grande vontade de aprender e me aprimorar continuamente. Meu objetivo é evoluir constantemente como profissional, contribuindo 
-            de maneira significativa para as equipes, clientes e empresas com as quais colaboro. Estou aberta a oportunidades que me permitam aplicar minhas habilidades e adquirir novos conhecimentos em tecnologias emergentes.</p>
+            <p>Meu nome é Gabriela, tenho 19 anos, e a tecnologia sempre desempenhou um papel central em minha vida, despertando meu interesse desde cedo. Essa curiosidade crescente levou-me ao fascinante mundo da programação.
+            Atualmente, estou cursando o terceiro semestre na FIAP e já possuo conhecimentos autodidatas adquiridos antes de iniciar a faculdade. Meu objetivo é evoluir constantemente como profissional, contribuindo 
+            de maneira significativa para as equipes com as quais colaboro. Estou aberta a oportunidades que me permitam aplicar minhas habilidades e adquirir novos conhecimentos em tecnologias emergentes.</p>
             </div>
                 <h1>Skills</h1>
                 <div className='skill-container'>
