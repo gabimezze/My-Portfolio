@@ -9,7 +9,7 @@ export default function ProjetosHeader() {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/sobre">Sobre mim</a></li>
-                    <li><a className='active' href="/projetos">Projetos</a></li>
+                    <li><a href="/projetos">Projetos</a></li>
                 </ul>
             </nav>
         </header>

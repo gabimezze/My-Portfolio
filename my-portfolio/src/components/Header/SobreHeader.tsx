@@ -8,7 +8,7 @@ export default function SobreHeader() {
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a className='active' href="/sobre">Sobre mim</a></li>
+                    <li><a href="/sobre">Sobre mim</a></li>
                     <li><a href="/projetos">Projetos</a></li>
                 </ul>
             </nav>

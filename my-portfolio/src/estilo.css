@@ -16,11 +16,11 @@ body {
       align-items: center;
       padding: 1.5rem;
     }
-    .cabecalho li a{
+    .cabecalho li a {
+    color: #ffff;
     display: inline-flex;
     gap: 20px;
     margin-right: 2.0rem;
-    color: #fff;
     cursor: pointer;
     font-size: 1.0rem;
     }
