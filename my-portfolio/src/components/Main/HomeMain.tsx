@@ -13,7 +13,7 @@ export default function MainContent() {
         <p>Sou uma desenvolvedora web fascinada, <br /> com foco na construção de sites modernos, interativos e fáceis de usar.</p>
         <div className='bnt-container'>
             <a href='/sobre' className="sb">saiba mais</a>
-            <a href='/pdf' className="bntc">currículo</a>
+            <a href='/pdf/curriculoGabriela.pdf' className="bntc">currículo</a>
             </div>
         </div>
     </div>
