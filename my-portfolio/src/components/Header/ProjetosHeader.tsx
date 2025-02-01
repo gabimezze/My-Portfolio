@@ -1,5 +1,5 @@
 import Logo from '../../../public/favicon.ico'
-import '../../estilo.css'
+import '../../style/estilo.css'
 import '../../routes/routes'
 export default function ProjetosHeader() {
     return (

@@ -1,5 +1,5 @@
 import '../../routes/routes'
-import '../../estilo.css'
+import '../../style/estilo.css'
 import Card from '../Cards/CardPerfil'
 import '../../pdf/curriculoGabriela.pdf'
 

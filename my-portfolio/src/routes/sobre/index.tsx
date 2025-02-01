@@ -4,7 +4,7 @@ import instagram from '../../img/instagram.png'
 import email from '../../img/email.png'
 import linkedin from '../../img/linkedin.png'
 import Rodape from '../../components/Rodape/Rodape'
-import '../../estilo.css'
+import '../../style/estilo.css'
 export default function Sobre() {
     return (
         <div>

@@ -1,4 +1,4 @@
-import '../../estilo.css'
+import '../../style/estilo.css'
 import '../../img/porto.png'
 
 export default function ProjetosCard () {
