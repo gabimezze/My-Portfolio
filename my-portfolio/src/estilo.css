@@ -16,13 +16,19 @@ body {
       align-items: center;
       padding: 1.5rem;
     }
+    .cabecalho {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    }
+
+    .cabecalho li {
+    margin-right: 16px;
+    }
+
     .cabecalho li a {
-    color: #ffff;
-    display: inline-flex;
-    gap: 20px;
-    margin-right: 2.0rem;
-    cursor: pointer;
-    font-size: 1.0rem;
+    color: white;
+    transition: color 0.3s;
     }
   
   .cabecalho li a:hover {

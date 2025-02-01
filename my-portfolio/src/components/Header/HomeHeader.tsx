@@ -3,10 +3,10 @@ import '../../estilo.css'
 import '../../routes/routes'
 export default function HomeHeader() {
     return (
-        <header className='cabecalho'>
+        <header>
             <img src={Logo} alt="logo-mezze" />
             <nav>
-                <ul>
+                <ul className='cabecalho'>
                     <li><a href="/">Home</a></li>
                     <li><a href="/sobre">Sobre mim</a></li>
                     <li><a href="/projetos">Projetos</a></li>
