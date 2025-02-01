@@ -1,6 +1,8 @@
 import '../../routes/routes'
 import '../../estilo.css'
 import Card from '../Cards/CardPerfil'
+import '../../pdf/curriculoGabriela.pdf'
+
 export default function MainContent() {
     return (
     <div className="container-home">
