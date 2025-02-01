@@ -26,12 +26,12 @@ body {
     margin-right: 16px;
     }
 
-    .cabecalho li a {
+    nav a {
     color: white;
     transition: color 0.3s;
     }
   
-  .cabecalho li a:hover {
+    nav a:hover {
     color: rgba(148, 163, 184, 0.55); 
   }
 
