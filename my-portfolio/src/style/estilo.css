@@ -234,3 +234,45 @@ body {
   .pcard img {
     border-radius: 1.0rem;
   }
+
+  /* RESPONSIVIDADE */
+  
+  @media screen and (max-width: 768px) {
+    .container-home {
+      flex-direction: column;
+    }
+    .container-home h1 {
+      font-size: 1.5rem;
+    }
+    .img-container img {
+      width: 100%;
+      height: auto;
+    }
+    .bnt-container {
+      margin-right: 10%;
+      flex-direction: column;
+    }
+    .bntc {
+      margin-left: 30%;
+    }
+    footer {
+      padding: 2%;
+    }
+    .redes-container {
+      gap: 1.2rem;
+    }
+    .skill-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+      gap: 40px; /* Espaço entre as imagens */
+      margin-top: 15%;
+    }
+    .p-container {
+      margin-left: 0;
+      flex-direction: column;
+    }
+    .p-container h1 {
+      font-size: 1.8rem;
+      margin-left: 18%;
+    }
+  }
