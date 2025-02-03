@@ -1,7 +1,7 @@
 import '../../style/estilo.css'
-import 'src/img/blueocean.png'
-import 'src/img/portfolio.png'
-import 'src/img/porto.png'
+import '../../img/blueocean.png'
+import '../../img/portfolio.png'
+import '../../img/porto.png'
 
 export default function ProjetosCard () {
     return (
