@@ -1,4 +1,7 @@
 import '../../style/estilo.css'
+import '../../img/blueocean.png'
+import '../../img/portavaliacoes.png'
+import '../../img/portfolio.png'
 import '../../img/porto.png'
 
 export default function ProjetosCard () {
@@ -6,12 +9,12 @@ export default function ProjetosCard () {
 <div className="p-container">
             <h1>Projetos</h1>
             <div className="pcard">
-                <a href="https://blueoceann.netlify.app/"><img src="/src/img/blueocean.png" width={290} height={150} alt="blueocean" /></a>
+                <a href="https://blueoceann.netlify.app/"><img src='src/img/blueocean.png' width={290} height={150} alt="blueocean" /></a>
                 <h2>BlueOcean</h2>
                 <p>Projeto Front End para a conscientização da poluição marinha.</p>
             </div>
             <div className="pcard">
-                <a href=""><img src="src/img/portfolio.png" width={290} height={150} alt="portfolio" /></a>
+                <a href="https://mezzedev.vercel.app/"><img src="src/img/portfolio.png" width={290} height={150} alt="portfolio" /></a>
                 <h2>Portfólio</h2>
                 <p>Projeto Front End para apresentar minhas habilidades.</p>
             </div>
@@ -21,7 +24,7 @@ export default function ProjetosCard () {
                 <p>Case da faculdade Fiap com a Porto Seguro.</p>
             </div>
             <div className="pcard">
-                <a href=""><img src="/src/img/portavaliacoes.png" width={290} height={150} alt="Portofólio Avaliações" /></a>
+                <a href=""><img src="src/img/portavaliacoes.png" width={290} height={150} alt="Portofólio Avaliações" /></a>
                 <h2>Portfólio de Avaliações</h2>
                 <p>Projeto Full-Stack para mostrar notas dos alunos.</p>
             </div>
