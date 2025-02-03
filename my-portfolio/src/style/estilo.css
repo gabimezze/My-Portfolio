@@ -237,7 +237,7 @@ body {
 
   /* RESPONSIVIDADE */
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 390px) {
     .container-home {
       flex-direction: column;
     }
@@ -280,5 +280,29 @@ body {
   @media screen and (max-width: 1920px) {
     .p-container {
       margin-left: 14%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .sobre-container {
+      flex-direction: column;
+      margin-left: 0;
+    }
+    .bnt-container{
+      flex-direction: column;
+    }
+    .bntc {
+      margin-left: 29%;
+    }
+    .container-home {
+      margin-left: 20%;
+      flex-direction: column;
+    }
+    .p-container {
+      margin-left: 0;
+    }
+    .p-container h1 {
+      font-size: 1.8rem;
+      margin-left: 18%;
     }
   }
