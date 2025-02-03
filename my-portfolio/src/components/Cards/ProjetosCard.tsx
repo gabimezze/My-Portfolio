@@ -19,14 +19,9 @@ export default function ProjetosCard () {
                 <p>Projeto Front End para apresentar minhas habilidades.</p>
             </div>
             <div className='pcard'>
-                <a href="https://caseportofiap.netlify.app/"><img src="/src/img/porto.png" width={290} height={150} alt="porto" /></a>
+                <a href="https://challengefiap.vercel.app/"><img src="/src/img/porto.png" width={290} height={150} alt="porto" /></a>
                 <h2>Porto Seguro</h2>
                 <p>Case da faculdade Fiap com a Porto Seguro.</p>
-            </div>
-            <div className="pcard">
-                <a href=""><img src="src/img/portavaliacoes.png" width={290} height={150} alt="Portofólio Avaliações" /></a>
-                <h2>Portfólio de Avaliações</h2>
-                <p>Projeto Full-Stack para mostrar notas dos alunos.</p>
             </div>
             </div>
     );
