@@ -1,7 +1,7 @@
 import '../../routes/routes'
 import '../../style/estilo.css'
 import Card from '../Cards/CardPerfil'
-import '../../pdf/curriculoGabriela.pdf'
+import curriculo from '../../pdf/curriculoGabriela.pdf'
 
 export default function MainContent() {
     return (
@@ -15,7 +15,7 @@ export default function MainContent() {
         <p>Sou uma desenvolvedora web fascinada, <br /> com foco na construção de sites modernos, interativos e fáceis de usar.</p>
         <div className='bnt-container'>
             <a href='/sobre' className="sb">saiba mais</a>
-            <a href='/src/pdf/curriculoGabriela.pdf' className="bntc">currículo</a>
+            <a href={curriculo} className="bntc">currículo</a>
             </div>
         </div>
     </div>
