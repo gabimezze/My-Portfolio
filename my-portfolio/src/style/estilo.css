@@ -189,6 +189,13 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
   }
+  .redes-container img {
+    transition: transform 0.2s;
+  }
+
+  .redes-container img:hover {
+    transform: translateY(-10px);
+  }
 
   .skill-container {
     display: inline-flex;
