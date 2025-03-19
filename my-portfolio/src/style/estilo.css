@@ -89,6 +89,8 @@ nav a:hover {
   align-items: center;
   gap: 5%;
   flex-wrap: wrap;
+  margin-top: 5%;
+  margin-right: 17%;
 }
 
 .sb,
